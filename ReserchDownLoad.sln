@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReserchDownLoad", "ReserchDownLoad\ReserchDownLoad.csproj", "{20BF01C1-5DC1-4CB5-9554-B05CB4F92B72}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C98B441-A760-469C-8BBC-F056333323E0} = {4C98B441-A760-469C-8BBC-F056333323E0}
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459} = {6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roky", "Roky\Roky.csproj", "{4C98B441-A760-469C-8BBC-F056333323E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459} = {6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonUtils", "CommonUtils\CommonUtils.csproj", "{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLoadManager", "DownLoadManager\DownLoadManager.csproj", "{1864A330-9CB2-4951-B55B-1950818FDC98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20BF01C1-5DC1-4CB5-9554-B05CB4F92B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BF01C1-5DC1-4CB5-9554-B05CB4F92B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BF01C1-5DC1-4CB5-9554-B05CB4F92B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BF01C1-5DC1-4CB5-9554-B05CB4F92B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C98B441-A760-469C-8BBC-F056333323E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C98B441-A760-469C-8BBC-F056333323E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C98B441-A760-469C-8BBC-F056333323E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C98B441-A760-469C-8BBC-F056333323E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A34BDFE-C9D3-43C2-86E0-A9C824CB8459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1864A330-9CB2-4951-B55B-1950818FDC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1864A330-9CB2-4951-B55B-1950818FDC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1864A330-9CB2-4951-B55B-1950818FDC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1864A330-9CB2-4951-B55B-1950818FDC98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
