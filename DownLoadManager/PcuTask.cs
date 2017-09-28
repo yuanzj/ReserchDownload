@@ -121,7 +121,7 @@ namespace DownLoadManager
             mPcuStartParam = mPcuUpgradeStartTask.GetRequestEntity();
             mPcuUpgradeStartTask.RetryMaxCnts = 500;
             mPcuUpgradeStartTask.Timerout = 20;//10s超时
-            mPcuStartParam.deviceType = 0x07;
+            mPcuStartParam.deviceType = 0x06;
             mPcuStartParam.Param1 = 0x0;
             mPcuStartParam.Param2 = 0x11;
             mPcuStartParam.Param3 = 0x22;
@@ -227,7 +227,7 @@ namespace DownLoadManager
             mPcuRunningParam = mPcuUpgradeRunningTask.GetRequestEntity();
             mPcuUpgradeRunningTask.RetryMaxCnts = 10;
             mPcuUpgradeRunningTask.Timerout = 1000;//5s超时
-            mPcuRunningParam.devType = 0x07;
+            mPcuRunningParam.devType = 0x06;
             mPcuUpgradeRunningTask.SimpleSerialPortTaskOnPostExecute += (object sender, EventArgs e) =>
             {
                 SerialPortEventArgs<PCU_UpgradeRunningRsp> mEventArgs = e as SerialPortEventArgs<PCU_UpgradeRunningRsp>;
